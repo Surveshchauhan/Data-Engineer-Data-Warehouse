@@ -38,7 +38,7 @@ In addition to the data files, the project includes 7 files: description below
 2. **etl.py** is where we'll load data from S3 into staging tables on Redshift and then process that data into your analytics tables on Redshift.
 3. **sql_queries.py** is where we'll define you SQL statements, which will be imported into the two other files above.
 4. **README.md** is where we'll provide discussion on your process and decisions for this ETL pipeline.
-5. **dwh.cfg** is where we will storing our config parameters
+5. **dwh.cfg** is where we be will storing our config parameters
 6. **TestQueries.ipynb/html** will be used to query the tables on redshift database to test out data lakes
 
 
