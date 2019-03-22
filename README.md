@@ -31,13 +31,15 @@ Using the song and log datasets, we'll be creating a star schema optimized for q
 5. **time** - timestamps of records in songplays broken down into specific units
 (start_time, hour, day, week, month, year, weekday)
 
-In addition to the data files, the project workspace includes four files: description below
+In addition to the data files, the project includes 7 files: description below
 
 
 1. **create_table.py** is where we'll create your fact and dimension tables for the star schema in Redshift.
 2. **etl.py** is where we'll load data from S3 into staging tables on Redshift and then process that data into your analytics tables on Redshift.
 3. **sql_queries.py** is where we'll define you SQL statements, which will be imported into the two other files above.
 4. **README.md** is where we'll provide discussion on your process and decisions for this ETL pipeline.
+5. **dwh.cfg** is where we will storing our config parameters
+6. **TestQueries.ipynb/html** will be used to query the tables on redshift database to test out data lakes
 
 
 ### Instructions:
